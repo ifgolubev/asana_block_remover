@@ -1,5 +1,5 @@
 function removeWarning() {
-    const warnings = document.querySelectorAll('.Clawbackwarning0verlay-container');
+    const warnings = document.querySelectorAll('.ClawbackWarningOverlay-container');
     warnings.forEach(warning => {
         warning.remove();
     });
